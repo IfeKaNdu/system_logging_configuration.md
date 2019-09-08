@@ -78,8 +78,8 @@ sorting by CPU.
 4.Press R to reverse sort your output.
 5.Press u and enter a username to display processes only for a particular user. 
 To kill or renice a process with the top running, the following should be done.
-+**Killing a process**: First identify the process ID of the process you want to kill and press k.Type the process ID of the program to kill then type 15 to terminate cleanly or 9 to just kill the process immediately.
-+**Renicing a process**: With the process ID of the program you want to renice noted, press r.When the PID to renice:message appears,type the process ID of the process you wish to renice.When prompted to Renice PID to value:type in a number from -19 to 20.
++ **Killing a process**: First identify the process ID of the process you want to kill and press k.Type the process ID of the program to kill then type 15 to terminate cleanly or 9 to just kill the process immediately.
++ **Renicing a process**: With the process ID of the program you want to renice noted, press r.When the PID to renice:message appears,type the process ID of the process you wish to renice.When prompted to Renice PID to value:type in a number from -19 to 20.
 **NB** The lower the nice value ,the morer access to the CPUs the process has. 
 
 ##### Checking for memory problems with top

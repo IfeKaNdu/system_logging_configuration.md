@@ -78,8 +78,8 @@ tri par CPU.
 4. Appuyez sur R pour effectuer un tri inverse de votre sortie
 5. Appuyez sur u et entrez un nom d'utilisateur pour afficher les processus uniquement pour un utilisateur particulier.
 Pour tuer ou renommer un processus dont le top est en cours d'exécution, procédez comme suit.
-+**Tuer un processus**: Identifiez d'abord l'ID de processus du processus que vous voulez tuer et appuyez sur k.Tapez l'ID de processus du programme à tuer, puis tapez 15 pour mettre fin proprement ou 9 pour simplement arrêter le processus immédiatement.
-+**Renicing d'un processus**: avec l'identifiant de processus du programme que vous souhaitez renommer, appuyez sur r.Lorsque le PID à renoncer: le message apparaît, tapez l'identifiant du processus que vous souhaitez renier.Lorsque vous êtes invité à Renice PID à valeur: entrez un nombre compris entre -19 et 20.
++ **Tuer un processus**: Identifiez d'abord l'ID de processus du processus que vous voulez tuer et appuyez sur k.Tapez l'ID de processus du programme à tuer, puis tapez 15 pour mettre fin proprement ou 9 pour simplement arrêter le processus immédiatement.
++ **Renicing d'un processus**: avec l'identifiant de processus du programme que vous souhaitez renommer, appuyez sur r.Lorsque le PID à renoncer: le message apparaît, tapez l'identifiant du processus que vous souhaitez renier.Lorsque vous êtes invité à Renice PID à valeur: entrez un nombre compris entre -19 et 20.
 **NB** Plus la valeur de courtoisie est basse, plus le processus dispose d'un accès aux processeurs.
 ##### Vérification des problèmes de mémoire avec top
 Si vous rencontrez soudainement un problème de performances en exécutant de nombreuses applications, il est important d'utiliser top ou ps pour vérifier la consommation de mémoire du système.
